@@ -9,9 +9,9 @@ This implementation allows us to observe the tweets including the name of compan
 Installation instructions
 -------------------------
 
-The installation recoomendation requires MacOS(ver =< 11.5.1), Ubuntu(ver =< 20.04) or Amazon Linux(t2.medium).
-As premise the users have to register TwitterAPI account (https://developer.twitter.com/en/docs/twitter-api )
-We also highly recommend to install MySQLWorkbench(download from https://www.mysql.com/products/workbench/ )
+The installation recoomendation requires MacOS(ver =< 11.5.1), Ubuntu(ver =< 20.04) or Amazon Linux(t2.medium).<br>
+As premise the users have to register TwitterAPI account <https://developer.twitter.com/en/docs/twitter-api>.<br>
+We also highly recommend to install MySQLWorkbench download from <https://www.mysql.com/products/workbench/>.<br>
 Requisite packages are written in /bin/requirements.txt
 * numpy==1.21.1
 * tensorflow==2.7.0
@@ -33,8 +33,8 @@ from the base directory of the package.
 
 Initial Settings
 -------------------------
-Prior to runnnig the flaming analysis, 'db_initial_setting.py' needs to be implemented since it allows us to build initial MySQL DB tables including initial_day,day0~day6.
-Having got these tables, the system requires to acquire new extracted data from TwitterAPI from initial_day to day0 which can be implemented with 'main.py'
+Prior to runnnig the flaming analysis, 'db_initial_setting.py' needs to be implemented since it allows us to build initial MySQL DB tables including initial_day,day0~day6.<br>
+Having got these tables, the system requires to acquire new extracted data from TwitterAPI from initial_day to day0 which can be implemented with 'main.py'.<br>
 Note: When running 'main.py' as initial setting, the parameter named as 'initial_day' needs to be set 'True', otherwise it will return wrong results.
 
 Main Analysis
