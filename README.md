@@ -67,5 +67,5 @@ Now you can get Dash board on local IP which might be like http://125.****
 
 Example
 -------------------------
-<https://saihinchi004.herokapp.com>
+<https://saihinchi004.herokuapp.com>
 
