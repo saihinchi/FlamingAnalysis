@@ -65,7 +65,4 @@ Once you get done runnnig main.py, you can browse the displayed result by runnni
 Now you can get Dash board on local IP which might be like http://125.****
 
 
-Example
--------------------------
-<https://saihinchi004.herokuapp.com>
 
