@@ -49,7 +49,7 @@ Note: When running 'main.py' as initial setting, the parameter named as 'initial
 When making use of AWS EC2 instance, the steps of what this system does are broken down into few parts below<br>
 * First, the system extracts tweet data having got the name of our company , that is ‘company name’, from API to insert them into AWS MySQL database .
 
-* Then, we plan to analyse the stored data to categorise these into positive and negative tweets by AWS Comprehend which is cognitive analysis tool.
+* Then, The system analyses the stored data to categorise these into positive and negative tweets by AWS Comprehend which is cognitive analysis tool.
 
 * After successfully getting done that, a NLP package called sentimentja (https://github.com/sugiyamath/sentiment_ja ) is to be implemented to categorise negative tweets into 5 kinds of sentiment that are happy, sad, disgust, surprise and angry. This method allows us to make the analysed data be more numerically detailed result. For instance ‘I am so happy’ could be happy=0.9, and the others are 0.
 
