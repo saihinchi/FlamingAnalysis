@@ -9,7 +9,7 @@ This implementation allows us to observe the tweets including the name of compan
 Installation instructions
 -------------------------
 
-The installation recomendation requires MacOS(ver =< 11.5.1), Ubuntu(ver =< 20.04) or Amazon Linux(greater than t2.medium recommended).<br>
+The tested installation environment are MacOS(ver =< 11.5.1), Ubuntu(ver =< 20.04) or Amazon Linux(greater than t2.medium recommended).<br>
 As premise the users have to register TwitterAPI account <https://developer.twitter.com/en/docs/twitter-api>.<br>
 We also highly recommend to install MySQLWorkbench download from <https://www.mysql.com/products/workbench/>.<br>
 Requisite packages are written in /bin/requirements.txt
@@ -25,6 +25,8 @@ Requisite packages are written in /bin/requirements.txt
 * requests-oauthlib
 * boto3
 * emoji
+* <https://github.com/sugiyamath/sentiment_ja>
+<br>
 To install all of the above, it should be enough to run
 
     pip install -r requirements.txt
@@ -43,8 +45,8 @@ To run main file you can simply run
 
     python main.py
 
-Note: When running 'main.py' as initial setting, the parameter named as 'initial_day' needs to be set 'False', otherwise it will return wrong results.
-When making use of AWS EC2 instance, the steps of what this system does are broken down into few parts below
+Note: When running 'main.py' as initial setting, the parameter named as 'initial_day' needs to be set 'False', otherwise it will return wrong results.<br>
+When making use of AWS EC2 instance, the steps of what this system does are broken down into few parts below<br>
 * First, the system extracts tweet data having got the name of our company , that is ‘company name’, from API to insert them into AWS MySQL database .
 
 * Then, we plan to analyse the stored data to categorise these into positive and negative tweets by AWS Comprehend which is cognitive analysis tool.
