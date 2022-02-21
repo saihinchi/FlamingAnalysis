@@ -9,7 +9,7 @@ This implementation allows us to observe the tweets including the name of compan
 Installation instructions
 -------------------------
 
-The installation recoomendation requires MacOS(ver =< 11.5.1), Ubuntu(ver =< 20.04) or Amazon Linux(t2.medium).<br>
+The installation recomendation requires MacOS(ver =< 11.5.1), Ubuntu(ver =< 20.04) or Amazon Linux(t2.medium).<br>
 As premise the users have to register TwitterAPI account <https://developer.twitter.com/en/docs/twitter-api>.<br>
 We also highly recommend to install MySQLWorkbench download from <https://www.mysql.com/products/workbench/>.<br>
 Requisite packages are written in /bin/requirements.txt
