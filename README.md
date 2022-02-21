@@ -1,4 +1,4 @@
-# Flaming Analysis　*炎上分析*
+# Flaming Analysis　*炎上分析*:fire:
 This repository is showing what is called 'Flaming Analysis'. 
 This implementation allows us to observe the tweets including the name of company that is likely to be flaming on the internet
 <p align="center">
