@@ -1,13 +1,4 @@
 #!/usr/bin/env python
-
-'''
-ユニークな数を調べるSQL司令
-mysql> use twitter_logs
-mysql> SELECT * FROM hashtag_search\G;
-mysql> SELECT COUNT(DISTINCT tweet_id) from hashtag_search;
-
-'''
-
 import re
 from datetime import datetime, timedelta, date
 from requests.exceptions import ConnectionError, ReadTimeout, SSLError
@@ -19,22 +10,19 @@ from requests_oauthlib import OAuth1Session
 
 
 '''
-pyCharmを使う場合はこのパスで通す．
-from periodical_test.To_MySQL_single_text import single
-
 crontab -eの場合は以下のimport
 '''
-DB_USER = 'admin'
-DB_PASSWORD = 'Gkn20210312'
-DB_HOST = 'flame-db.cnjs8fhg80gr.ap-northeast-1.rds.amazonaws.com'
-DB_NAME = 'flame_test'
-CHARSET = 'utf8'
+DB_USER = ***
+DB_PASSWORD = ***
+DB_HOST = ***
+DB_NAME = ***
+CHARSET = ***
 
-TARGET_WORD = u'学研'
-CONSUMER_KEY = 'fNwRmQidOthL2IVwEKyBMtJk5'
-CONSUMER_SECRET = '8HpiRKLxCxErGLOgcVFZq8O0BeyC71sJDITlIARpeW8w4U0c4a'
-ACCESS_TOKEN = '1384801658916335619-Aw3M4XP5LdM2M217UycksufosBZZo7'
-ACCESS_TOKEN_SECRET = 'NiaOoeCxctarq7Q4zj6ViKQ8O732VfDruaIi4paCXYoRr'
+TARGET_WORD = ***
+CONSUMER_KEY = ***
+CONSUMER_SECRET = ***
+ACCESS_TOKEN = ***
+ACCESS_TOKEN_SECRET = ***
 
 twitter = OAuth1Session(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 tw = TweetGetter(twitter)
@@ -217,11 +205,4 @@ def tweet_main():
             info = sys.exc_info()
     return True
 
-
-### Execute
-# if __name__ == "__main__":
-#     print('Now running')
-#     tweet_main
-#     ()
-#     print('Done!')
 tweet_main()
