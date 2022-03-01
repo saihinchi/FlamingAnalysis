@@ -2,7 +2,7 @@
 This repository is showing what is called 'Flaming Analysis'. 
 This implementation allows us to observe the tweets including the name of company that is likely to be flaming on the internet
 <p align="center">
-  <img src="./img/dash.png" alt="Size Limit CLI" width="738">
+  <img src="./img/f_dash.png" alt="Size Limit CLI" width="738">
 </p>
 (these boxes above describe 'The number of Today tweets', 'The number of unique people who tweeted', 'The max retweet count', 'The max favorite count')
 
