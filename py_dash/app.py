@@ -159,7 +159,7 @@ app.layout = html.Div([
 
         html.Div([
             html.Div([
-                html.H3('学研SNS動向', style={'margin-bottom': '0px', 'color': 'white'}),
+                html.H3('SNS動向', style={'margin-bottom': '0px', 'color': 'white'}),
                 html.H5('炎上リスク監視', style={'margin-bottom': '0px', 'color': 'white'})
             ])
         ], className='one-half column', id = 'title'),
